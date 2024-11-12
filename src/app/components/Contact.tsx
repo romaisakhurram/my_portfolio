@@ -35,7 +35,7 @@ export default function () {
                        id="Message" rows={6}></textarea>
                     </div>
                     <br />
-                    <button className="bg-accent p-2 px-6" data-aos="zoom-in-down">Submit</button>
+                    <button id="button"className="bg-accent p-2 px-6 " data-aos="zoom-in-down">Submit</button>
 
                 </div>
 
