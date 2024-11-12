@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+  color: #fff;
+  background-color: black;
+}
+}
+
+@layer components {
+   .menulink {
+      @apply cursor-pointer hover:text-[#c5c5c5]
+  } 
+}
+
+#hero{
+  background-image: url(./Images/profile.jpg);
+}
